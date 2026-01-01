@@ -2,6 +2,8 @@
 
 # 🕰️ **Watch Store - Luxury Timepiece E-Commerce Platform**
 
+<img src="hero.jpg" />
+
 ![React](https://img.shields.io/badge/React-19.2.0-61DAFB?style=for-the-badge&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-7.2.4-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
@@ -36,6 +38,7 @@
 Watch Store is a premium e-commerce web application built with React and Vite, showcasing luxury timepieces from world-renowned watchmakers. The platform offers an immersive shopping experience with elegant design, smooth animations, and intuitive navigation through collections of high-end watches.
 
 ### **Key Highlights**
+
 - ✨ **Modern UI/UX** - Sleek, luxury-focused design with smooth transitions
 - 🛍️ **Shopping Cart** - Full cart functionality with quantity management
 - 🔐 **User Authentication** - Login and Sign Up with localStorage persistence
@@ -47,17 +50,17 @@ Watch Store is a premium e-commerce web application built with React and Vite, s
 
 ## ✨ **Features**
 
-| Feature | Description |
-|---------|-------------|
-| 🏠 **Homepage** | Hero video banner with featured watch cards and brand showcase |
-| 🕰️ **Watch Catalog** | Browse all watches with filtering options (Men/Women/All) |
-| 🏪 **Brand Pages** | Individual pages for each luxury brand with their collections |
-| 🛒 **Shopping Cart** | Add, remove, and manage items with quantity controls |
-| 📝 **Contact Form** | Customer inquiry form with WhatsApp integration |
-| 🔐 **Authentication** | User login and signup with form validation |
-| 💬 **Testimonials** | Customer reviews and testimonials section |
-| ⏰ **Coming Soon** | Upcoming watch releases with countdown timer |
-| 🎨 **Elegant Design** | Luxury-themed color palette and typography |
+| Feature               | Description                                                    |
+| --------------------- | -------------------------------------------------------------- |
+| 🏠 **Homepage**       | Hero video banner with featured watch cards and brand showcase |
+| 🕰️ **Watch Catalog**  | Browse all watches with filtering options (Men/Women/All)      |
+| 🏪 **Brand Pages**    | Individual pages for each luxury brand with their collections  |
+| 🛒 **Shopping Cart**  | Add, remove, and manage items with quantity controls           |
+| 📝 **Contact Form**   | Customer inquiry form with WhatsApp integration                |
+| 🔐 **Authentication** | User login and signup with form validation                     |
+| 💬 **Testimonials**   | Customer reviews and testimonials section                      |
+| ⏰ **Coming Soon**    | Upcoming watch releases with countdown timer                   |
+| 🎨 **Elegant Design** | Luxury-themed color palette and typography                     |
 
 ---
 
@@ -65,12 +68,12 @@ Watch Store is a premium e-commerce web application built with React and Vite, s
 
 ### **Core Technologies**
 
-| Category | Technology | Version |
-|----------|-----------|---------|
-| **Framework** | React | ^19.2.0 |
-| **Build Tool** | Vite | ^7.2.4 |
-| **Styling** | Tailwind CSS | 3.x |
-| **Language** | JavaScript (ES6+) | - |
+| Category       | Technology        | Version |
+| -------------- | ----------------- | ------- |
+| **Framework**  | React             | ^19.2.0 |
+| **Build Tool** | Vite              | ^7.2.4  |
+| **Styling**    | Tailwind CSS      | 3.x     |
+| **Language**   | JavaScript (ES6+) | -       |
 
 ### **Key Dependencies**
 
@@ -103,17 +106,20 @@ Make sure you have the following installed on your system:
 ### **Step-by-Step Installation**
 
 1. **Clone the repository**
+
    ```bash
    git clone <repository-url>
    cd "Watch Store"
    ```
 
 2. **Install dependencies**
+
    ```bash
    npm install
    ```
 
 3. **Start the development server**
+
    ```bash
    npm run dev
    ```
@@ -203,17 +209,17 @@ Watch Store/
 
 ## 🗺️ **Pages & Routes**
 
-| Route | Component | Description |
-|-------|-----------|-------------|
-| `/` | FashionPage | Homepage with hero banner and brand showcase |
-| `/watches` | WatchPage | Main watch catalog with filtering |
-| `/brands/:brandSlug` | BrandPage | Individual brand collection pages |
-| `/cart` | CartPage | Shopping cart with checkout form |
-| `/contact` | ContactPage | Contact form with WhatsApp integration |
-| `/login` | LoginPage | User authentication login |
-| `/signup` | SignUpPage | New user registration |
-| `/testimonials` | TestimonialPage | Customer reviews section |
-| `/coming-soon` | ComingSoonWatchesPage | Upcoming releases with countdown |
+| Route                | Component             | Description                                  |
+| -------------------- | --------------------- | -------------------------------------------- |
+| `/`                  | FashionPage           | Homepage with hero banner and brand showcase |
+| `/watches`           | WatchPage             | Main watch catalog with filtering            |
+| `/brands/:brandSlug` | BrandPage             | Individual brand collection pages            |
+| `/cart`              | CartPage              | Shopping cart with checkout form             |
+| `/contact`           | ContactPage           | Contact form with WhatsApp integration       |
+| `/login`             | LoginPage             | User authentication login                    |
+| `/signup`            | SignUpPage            | New user registration                        |
+| `/testimonials`      | TestimonialPage       | Customer reviews section                     |
+| `/coming-soon`       | ComingSoonWatchesPage | Upcoming releases with countdown             |
 
 ### **Available Brand Routes**
 
@@ -236,24 +242,24 @@ Watch Store/
 
 The application uses a sophisticated luxury watch store color scheme:
 
-| Color | Usage | Hex/Class |
-|-------|-------|-----------|
-| **Gray-900/Black** | Primary backgrounds, text | `#111827` / `bg-gray-900` |
-| **Gray-800** | Card backgrounds, borders | `#1F2937` / `bg-gray-800` |
-| **Gray-600** | Secondary text, buttons | `#4B5563` / `bg-gray-600` |
-| **Gray-300/400** | Borders, icons | `#D1D5DB` / `bg-gray-300` |
-| **Amber-600** | Accent color, highlights | `#D97706` / `text-amber-600` |
-| **Yellow-500** | Accent highlights | `#EAB308` / `text-yellow-500` |
-| **White** | Primary text, card backgrounds | `#FFFFFF` / `bg-white` |
+| Color              | Usage                          | Hex/Class                     |
+| ------------------ | ------------------------------ | ----------------------------- |
+| **Gray-900/Black** | Primary backgrounds, text      | `#111827` / `bg-gray-900`     |
+| **Gray-800**       | Card backgrounds, borders      | `#1F2937` / `bg-gray-800`     |
+| **Gray-600**       | Secondary text, buttons        | `#4B5563` / `bg-gray-600`     |
+| **Gray-300/400**   | Borders, icons                 | `#D1D5DB` / `bg-gray-300`     |
+| **Amber-600**      | Accent color, highlights       | `#D97706` / `text-amber-600`  |
+| **Yellow-500**     | Accent highlights              | `#EAB308` / `text-yellow-500` |
+| **White**          | Primary text, card backgrounds | `#FFFFFF` / `bg-white`        |
 
 ### **Typography**
 
-| Font Family | Usage | Source |
-|-------------|-------|--------|
-| **Playfair Display** | Headings, elegant text | Google Fonts |
-| **Poppins** | Body text, UI elements | Google Fonts |
-| **Pacifico** | Brand name, decorative text | Google Fonts |
-| **Dancing Script** | Special accents | Google Fonts |
+| Font Family          | Usage                       | Source       |
+| -------------------- | --------------------------- | ------------ |
+| **Playfair Display** | Headings, elegant text      | Google Fonts |
+| **Poppins**          | Body text, UI elements      | Google Fonts |
+| **Pacifico**         | Brand name, decorative text | Google Fonts |
+| **Dancing Script**   | Special accents             | Google Fonts |
 
 ### **Design Principles**
 
@@ -284,18 +290,18 @@ All styles are centralized in `src/assets/dummyStyles.js` with exported style ob
 
 The platform showcases watches from 10 prestigious watchmakers:
 
-| # | Brand | Collections Available |
-|---|-------|----------------------|
-| 1 | **Rolex** | 8 models (Submariner, Daytona, GMT-Master, etc.) |
-| 2 | **Omega** | 8 models (Seamaster, Speedmaster, Aqua Terra, etc.) |
-| 3 | **Patek Philippe** | 8 models (Nautilus, Aquanaut, Calatrava, etc.) |
-| 4 | **Audemars Piguet** | 8 models (Royal Oak, Code 11.59, etc.) |
-| 5 | **Cartier** | 8 models (Santos, Tank, Ballon Bleu, etc.) |
-| 6 | **Breitling** | 8 models (Navitimer, Superocean, Avenger, etc.) |
-| 7 | **IWC** | 8 models (Big Pilot, Portugieser, Ingenieur, etc.) |
-| 8 | **Hublot** | 8 models (Big Bang, Classic Fusion, etc.) |
-| 9 | **Tag Heuer** | 8 models (Carrera, Monaco, Aquaracer, etc.) |
-| 10 | **Jaeger-LeCoultre** | 8 models (Reverso, Master Control, Polaris, etc.) |
+| #   | Brand                | Collections Available                               |
+| --- | -------------------- | --------------------------------------------------- |
+| 1   | **Rolex**            | 8 models (Submariner, Daytona, GMT-Master, etc.)    |
+| 2   | **Omega**            | 8 models (Seamaster, Speedmaster, Aqua Terra, etc.) |
+| 3   | **Patek Philippe**   | 8 models (Nautilus, Aquanaut, Calatrava, etc.)      |
+| 4   | **Audemars Piguet**  | 8 models (Royal Oak, Code 11.59, etc.)              |
+| 5   | **Cartier**          | 8 models (Santos, Tank, Ballon Bleu, etc.)          |
+| 6   | **Breitling**        | 8 models (Navitimer, Superocean, Avenger, etc.)     |
+| 7   | **IWC**              | 8 models (Big Pilot, Portugieser, Ingenieur, etc.)  |
+| 8   | **Hublot**           | 8 models (Big Bang, Classic Fusion, etc.)           |
+| 9   | **Tag Heuer**        | 8 models (Carrera, Monaco, Aquaracer, etc.)         |
+| 10  | **Jaeger-LeCoultre** | 8 models (Reverso, Master Control, Polaris, etc.)   |
 
 **Total Watch Catalog:** 80+ luxury timepieces
 
@@ -348,12 +354,12 @@ The platform showcases watches from 10 prestigious watchmakers:
 
 ## 🔧 **Scripts**
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server with HMR |
-| `npm run build` | Build for production (outputs to `dist/`) |
-| `npm run preview` | Preview production build locally |
-| `npm run lint` | Run ESLint code analysis |
+| Command           | Description                               |
+| ----------------- | ----------------------------------------- |
+| `npm run dev`     | Start development server with HMR         |
+| `npm run build`   | Build for production (outputs to `dist/`) |
+| `npm run preview` | Preview production build locally          |
+| `npm run lint`    | Run ESLint code analysis                  |
 
 ---
 
@@ -445,7 +451,7 @@ This project is private and proprietary.
 
 **Built with ❤️ using React & Vite**
 
-*Elegant Luxury Watch Shopping Experience*
+_Elegant Luxury Watch Shopping Experience_
 
 [⬆ Back to Top](#-watch-store---luxury-timepiece-e-commerce-platform)
 
