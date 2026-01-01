@@ -109,7 +109,7 @@ Make sure you have the following installed on your system:
 
    ```bash
    git clone https://github.com/Rahmoun-Rayan-abderrahim/Watch-Store---Luxury-Timepiece-E-Commerce-Platform.git
-   cd "Watch Store"
+
    ```
 
 2. **Install dependencies**
